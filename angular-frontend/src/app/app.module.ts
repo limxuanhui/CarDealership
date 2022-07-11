@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HeaderComponent } from './features/nav/header/header.component';
 import { JumbotronComponent } from './features/jumbotron/jumbotron.component';
+import { FooterComponent } from './features/nav/footer/footer.component';
+import { FeaturedListComponent } from './features/featured-list/featured-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     HeaderComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    FooterComponent,
+    FeaturedListComponent
   ],
   imports: [
     BrowserModule,
