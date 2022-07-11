@@ -8,6 +8,7 @@ import { HeaderComponent } from './features/nav/header/header.component';
 import { JumbotronComponent } from './features/jumbotron/jumbotron.component';
 import { FooterComponent } from './features/nav/footer/footer.component';
 import { FeaturedListComponent } from './features/featured-list/featured-list.component';
+import { InventorySearchPageComponent } from './pages/inventory-search-page/inventory-search-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FeaturedListComponent } from './features/featured-list/featured-list.co
     HeaderComponent,
     JumbotronComponent,
     FooterComponent,
-    FeaturedListComponent
+    FeaturedListComponent,
+    InventorySearchPageComponent
   ],
   imports: [
     BrowserModule,
